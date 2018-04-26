@@ -21,7 +21,7 @@ To make sure the Pi always has the same IP address everytime you want to develop
 
 To setup the static IP:
 * Edit /etc/dhcpcd.conf with nano, vim or emacs.
-* Disable commented out static ip v4 and/or v6
+* Disable commented out "interface eth0" and static ip v4 and/or v6, all in the example static IP config
 * Give IP address you prefer
 * Leave routers and dnservers commented out
 
